@@ -32,6 +32,10 @@
         justify-content: space-between;
         /* position: fixed; */
       }
+
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
   </head>
   <body>
@@ -141,6 +145,8 @@
     <main>
       <h1>Lorem, ipsum.</h1>
 
+      <a href="#last-article">Last Article</a>
+
       <header>
         <img src="" alt="logo" />
 
@@ -158,6 +164,10 @@
           </ul>
         </nav>
       </header>
+
+      <button>
+        <a href="https://developers.tiktok.com/" target="_blank">Tikto</a>
+      </button>
 
       <details>
         <summary>Open!</summary>
@@ -217,7 +227,7 @@
         </p>
       </dialog>
 
-      <iframe
+      <iframes
         src="https://caniuse.com"
         frameborder="0"
         width="500"
@@ -311,7 +321,7 @@
         </p>
       </article>
 
-      <article>
+      <article id="last-article">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           fugit veritatis sit, facere eaque similique eveniet, mollitia totam
